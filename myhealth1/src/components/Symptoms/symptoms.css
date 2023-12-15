@@ -1,0 +1,123 @@
+/* App Styles */
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color:#fff;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    color: #ffffff;
+  }
+  
+  h2 {
+    color: #ffffff;
+  }
+  
+  /* Symptom List Styles */
+  .symptom-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .symptom-item {
+    
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    width: calc(25% - 30px); /* 4 items per row with some margin */
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .symptom-item:hover {
+    border-color: #03c9bf;
+    
+  }
+  
+  .symptom-item.selected {
+    border-color: #28a745;
+  }
+  
+ 
+  /* Symptom Name and Description Styles */
+  .symptom-info {
+    margin-top: auto; /* Push description to the bottom */
+  }
+  
+  /* Buttons Styles */
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #03c9bf;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    align-items: center;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Search for Symptoms Styles */
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    margin-right: 10px;
+  }
+  
+  /* Searched Symptoms Styles */
+  .search-results {
+    margin-top: 20px;
+  }
+  
+  .search-results h2 {
+    color: #ffffff;
+  }
+  
+  /* Recorded Symptoms List Styles */
+  .recorded-symptoms {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .recorded-symptoms li {
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  

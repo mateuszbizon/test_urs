@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --col: #03c9bf;
+}
+
+body{
+  background-color: rgb(24, 22, 22);
+  
+}

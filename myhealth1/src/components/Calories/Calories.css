@@ -1,0 +1,74 @@
+.calories {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .calories .card {
+    width: 350px;
+    height: 500px;
+    background-color: #03c9bf;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  
+  .calories .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .calories .card-header-box {
+    display: flex;
+    flex-direction: column;
+    min-width: 45%;
+    background-color: white;
+    aspect-ratio: 1/1;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .calories .card-header-box-name {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .calories .card-header-box-value {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .calories .card button{
+    background-color: #ffffff;
+    color: rgb(33, 33, 33);
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px;
+  }
+  
+  
+  .calories .card button:hover{
+    background-color: rgb(33, 33, 33);
+    color: white;
+  }
+  
