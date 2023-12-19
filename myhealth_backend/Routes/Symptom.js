@@ -8,6 +8,6 @@ const router = express.Router()
 
 router.get("/getAllSymptoms", checkAuthToken, getAllSymptoms)
 router.post("/addSymptom", checkAuthToken, addsymptoms)
-router.delete("/deleteSymptom", checkAuthToken, deletesymptom)
+router.delete("/deleteSymptom/:id", checkAuthToken, deletesymptom)
 
 export default router 
